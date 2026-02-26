@@ -1,0 +1,36 @@
+#title {
+ height: 50vh;
+    background-image : url(../images/1.jpg) ;
+    background-size: cover;
+    background-position: center;
+display: flex;
+color: azure;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    
+
+}
+
+#title ::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.4);
+}
+
+
+title > *{
+    position: relative;
+    z-index: 1;
+    color: white;
+}
+
+
+body,html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: beige;
+}
