@@ -1,0 +1,12 @@
+#TitreDePage {
+    text-align: center;
+
+}
+
+#warning {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    background-color: red;
+    color: white;
+}
