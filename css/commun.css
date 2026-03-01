@@ -102,8 +102,14 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+}
 
+#description {
+    border-style: ridge;
+    border-color: cornflowerblue;
+    border-width: 5px;
+    background-color: aqua;
+    color: black;
 }
 
 #warning {
