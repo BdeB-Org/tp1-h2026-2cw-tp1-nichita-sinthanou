@@ -3,34 +3,51 @@
     background-image : url(../images/1.jpg) ;
     background-size: cover;
     background-position: center;
+    filter: brightness(70%);
+    
 display: flex;
 color: azure;
     justify-content: center;
     align-items: center;
     font-size: xx-large;
     
-
 }
 
-#title ::before{
-    content: "";
-    position: absolute;
-    inset: 0;
-    background: rgba(0,0,0,0.4);
-}
-
-
-title > *{
-    position: relative;
-    z-index: 1;
-    color: white;
-}
 
 
 body,html{
     height: 100%;
     margin: 0;
     padding: 0;
-    overflow: hidden;
     background-color: beige;
 }
+
+
+a:link{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+a:hover{
+color: darkorange;
+text-decoration: wavy;
+}
+
+
+img{
+    padding-top: 30px;
+}
+
+
+
+.bodyIndex{
+    display: flex; 
+    justify-content:space-evenly;
+    text-align: center; 
+    padding-top: 20px;
+    font-size: x-large;
+    color: black;
+}
+
